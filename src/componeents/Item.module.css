@@ -1,0 +1,64 @@
+.list-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 327px;
+  margin-top: 20px;
+}
+
+.item-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 1px;
+}
+
+.item-text h5 {
+  font-size: 18px;
+  line-height: 22px;
+  color: hsla(0, 0%, 5%, 1);
+  font-weight: 500;
+}
+
+.item-text h6 {
+  font-size: 14px;
+  color: hsla(0, 0%, 53%, 1);
+  font-weight: 200;
+}
+
+.done-item h5 {
+  text-decoration: line-through green;
+}
+
+.item-check input[type="checkbox"]:checked {
+  background-color: hsla(162, 86%, 53%, 1);
+  box-shadow: inset 0px 0px 0px 3px #ffffff;
+  transition: 0.5s;
+}
+
+.item-check input[type="checkbox"] {
+  position: relative;
+  margin-left: 4px;
+  width: calc(1.9em - 3px);
+  height: calc(1.9em - 3px);
+  float: left;
+  margin: 4px 10px 2px 1px;
+  border-radius: 50%;
+  vertical-align: middle;
+  border: 2px solid hsla(162, 86%, 53%, 1);
+  -webkit-appearance: none;
+  outline: none;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.edit-item {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.remove-item img {
+  cursor: pointer;
+  margin-left: 10px;
+}

@@ -1,0 +1,11 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+  width: 100%;
+  background-color: hsla(209, 22%, 94%, 1);
+  font-family: "Overpass", sans-serif;
+}

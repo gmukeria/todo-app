@@ -1,0 +1,38 @@
+.header-container {
+  height: 168px;
+  border-radius: 10px 10px 0px 0px;
+  position: relative;
+}
+
+.header-container img {
+  width: 360px;
+}
+
+.header-date {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  align-content: flex-end;
+  justify-content: flex-end;
+  margin-right: 20px;
+}
+
+.day {
+  position: absolute;
+  /* bottom: 60px;
+  right: 16px; */
+  color: hsla(0, 0%, 100%, 1);
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 75px;
+}
+
+.time {
+  position: absolute;
+  /* bottom: 8px;
+  right: 16px; */
+  color: hsla(0, 0%, 100%, 1);
+  font-size: 48px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
